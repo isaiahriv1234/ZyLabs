@@ -1,0 +1,15 @@
+We have a number of bunnies and each bunny has two big floppy ears. We want to compute the total number of ears across all the bunnies recursively (without loops or multiplication).
+
+bunnyEars(0) → 0
+bunnyEars(1) → 2
+bunnyEars(2) → 4
+
+Hint:
+You must solve this with recursion: no loops or formula solutions please!!
+
+
+First detect the base case (bunnies == 0), and in that case just return 0.
+Otherwise, make a recursive call to bunnyEars(bunnies-1).
+Trust that the recursive call returns the correct value, and fix it up by adding 2.
+
+Does your solution have a * symbol in it? That's cheating!! Go back and redo it using recursion ;)
